@@ -37,7 +37,7 @@ class ScrollViewExample extends Component {
 
 
             <View>
-                <Text>{console.log(TAG+'this is the view')}</Text>
+
                 <ScrollView>
                     {
                         this.state.names.map((item, index) => (

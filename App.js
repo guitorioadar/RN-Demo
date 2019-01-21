@@ -20,7 +20,7 @@ const App = () => {
                 <List/>
                 <Text>Input</Text>
                 <Inputs/>
-                <Text>Json WIth Header</Text>
+                <Text>JsonHeader</Text>
                 <JSONWithHeaders/>
                 <Text>Person List</Text>
                 <PersonList/>
