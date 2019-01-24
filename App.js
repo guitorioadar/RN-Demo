@@ -1,11 +1,11 @@
 import React from 'react';
 import { StyleSheet, Text, View, ScrollView } from 'react-native';
-import List from "./List";
-import Inputs from "./Inputs";
-import ScrollViewExample from "./ScrollViewExample";
-import PersonList from "./PersonList";
+import List from "./Components/List";
+import Inputs from "./Components/Inputs";
+import ScrollViewExample from "./Components/ScrollViewExample";
+import PersonList from "./Components/PersonList";
 import axiosVariable from "axios";
-import JSONWithHeaders from "./JSONWithHeaders";
+import JSONWithHeaders from "./Components/JSONWithHeaders";
 
 const App = () => {
     return (

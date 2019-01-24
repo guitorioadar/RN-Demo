@@ -61,6 +61,8 @@ class JSONWithHeaders extends Component {
                                     }
                                 </Text>
 
+
+
                         )
                     }
 
@@ -87,15 +89,13 @@ const styles = StyleSheet.create({
 })
 
 /*
-    <Text
-key={person.id}
-style={styles.item}
-onPress={() => this.alertItemName(person)}>
-{
-    'Id: ' + person.id
-    + '\n Name: ' + person.name
-    + '\n Symbol: ' + person.symbol
-}
-</Text>
+    <CoinCards
+    key={person.id}
+    symbol={person.symbol}
+    coin_name={person.name}
+    price_usd={person.slug}
+    percent_change_24h={person.first_historical_data}
+    percent_change_7d={person.last_historical_data}
+                               />
 
 */

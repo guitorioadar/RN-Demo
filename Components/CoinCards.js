@@ -1,6 +1,6 @@
 import React from 'react'
 import { View, Text, StyleSheet, Image } from 'react-native'
-import { images } from 'CoinIcons'
+import { images } from 'Components/CoinIcons'
 
 const styles = StyleSheet.create({
 
@@ -23,8 +23,7 @@ const CoinCards = ({symbol, coin_name, price_usd, percent_change_24h, percent_ch
     return (
         <View style={styles.container}>
 
-            <Image style={styles.image}
-                   source={{uri: images[symbol]}}/>
+            <Text style={styles.image}/>
 
             <Text>{symbol}</Text>
             <Text>{coin_name}</Text>
